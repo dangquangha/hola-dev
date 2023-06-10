@@ -1,0 +1,96 @@
+.category .container {
+    height: 100%;
+}
+
+.category-header {
+    height: 40px;
+}
+
+.category i {
+    font-size: 2rem;
+}
+
+.la-gift {
+    color: red;
+    transition: font-size 1s;
+}
+
+.la-gift:hover {
+    font-size: 2.5rem;
+}
+
+.category ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.category li {
+    margin-right: 1.25rem;
+    display: flex;
+    align-items: center;
+}
+
+.category a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.category i {
+    margin-right: 0.75rem;
+}
+
+.category-info {
+    min-height: 340px;
+}
+
+.policies {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.155); 
+}
+
+li.sidebar-item {
+    height: 40px;
+    padding: 0.5rem;
+    margin: 0;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.121);
+}
+
+.sub-menu {
+    position: absolute;
+    background-color: white;
+    margin-left: -0.5rem;
+    left: 100%;
+    top: 0;
+    width: calc(((75/25) * 100%) + 0.5rem);
+    min-height: 340px;
+    display: none;
+    box-shadow: 10px 10px 30px 0px #909091;
+    padding: 15px;
+}
+
+.sub-menu-item{
+    width: 33%;
+    flex-grow: 3;
+}
+a.sub-menu-item{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.has-sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.has-sub:hover .sub-menu {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: start;
+    z-index: 900;
+}
+
+.slide-control.active {
+    background-color: black;
+}

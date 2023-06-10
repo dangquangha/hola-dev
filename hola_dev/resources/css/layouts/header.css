@@ -1,0 +1,51 @@
+.header {
+    background-color: #333333;
+    height: 70px;
+}
+
+.header .container {
+    height: 100%;
+}
+
+.header .row {
+    height: 100%;
+}
+
+.header-col {
+    height: 100%;
+}
+
+.header .row img {
+    height: 100%;
+    width: 100%;
+}
+
+.header a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header a:not(.cart-text):hover {
+    color: blue;
+}
+
+.header i {
+    font-size: 2rem;
+    padding-right: 15px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.cart {
+    width: 100%;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.cart:hover {
+    opacity: 0.8;
+    color: #fff;
+}
+
